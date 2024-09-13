@@ -1,4 +1,4 @@
-Healthcare Data Management System
+Healthcare Analytic System
 Overview
 The Healthcare Data Management System integrates data analytics, machine learning, and web technologies to manage and analyze healthcare data effectively. This system includes various components for data visualization, predictive analysis, resource management, and personal care insights.
 
@@ -35,10 +35,6 @@ Start the Spring Boot application using HealthcareApplication.java.
 Frontend Setup:
 
 Open index.html in a web browser to view the user interface.
-Getting Started
-Clone the repository to your local machine:
 
-sh
-Copy code
-git clone https://github.com/yourusername/healthcare-data-management.git
-Navigate to the project directory and follow the setup instructions for each component as described in the respective files.
+
+
