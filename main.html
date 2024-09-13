@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare Data Management UI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .sidebar {
+            width: 200px;
+            background-color: #f4f4f4;
+            padding: 20px;
+            height: 100vh;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+        }
+        .sidebar a {
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+            color: #333;
+            margin-bottom: 5px;
+            border-radius: 4px;
+        }
+        .sidebar a:hover {
+            background-color: #ddd;
+        }
+        .main {
+            flex: 1;
+            padding: 20px;
+        }
+        .header {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        .card {
+            background-color: #fff;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 4px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .chart-container {
+            width: 100%;
+            height: 450px;
+            background-color: #e9ecef;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-group input, .form-group select, .form-group textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            padding: 10px 15px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <a href="#">Dashboard</a>
+        <a href="#">Data Visualization</a>
+        <a href="#">Predictive Model</a>
+        <a href="#">Resource Management</a>
+        <a href="#">Personal Care</a>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main">
+        <div class="header">
+            <h1>Healthcare Data Management UI</h1>
+        </div>
+
+        <!-- Predictive Model Section -->
+        <div id="predictive-model" class="predictive-model">
+            <div class="card">
+                <h3>Predictive Model Interface</h3>
+                <div class="form-group">
+                    <label for="symptom">Symptom:</label>
+                    <input type="text" id="symptom" placeholder="Enter symptom">
+                </div>
+                <div class="form-group">
+                    <label for="test-result">Test Result:</label>
+                    <select id="test-result">
+                        <option value="">Select Test Result</option>
+                        <option value="positive">Positive</option>
+                        <option value="negative">Negative</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="model">Select Model:</label>
+                    <select id="model">
+                        <option value="model1">Model 1</option>
+                        <option value="model2">Model 2</option>
+                    </select>
+                </div>
+                <button type="button">Generate Prediction</button>
+            </div>
+        </div>
+
+        <!-- Resource Allocation Section -->
+        <div class="chart-container">
+            <img src="beds.png" alt="Resource Allocation Chart" style="width:300px;">
+            <h4>Resource Allocation</h4>
+            <div>Resource List</div>
+        </div>
+
+        <!-- Medical History Section -->
+        <div class="card">
+            <h3>Medical History</h3>
+            <div class="form-group">
+                <label for="history">Medical History:</label>
+                <textarea id="history" placeholder="Enter medical history"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="conditions">Conditions:</label>
+                <input type="text" id="conditions" placeholder="Enter conditions">
+            </div>
+            <button type="button">Submit Care Plan</button>
+        </div>
+
+        <!-- Personal Care Section -->
+        <div id="personal-care" class="personal-care">
+            <div class="card">
+                <h3>Personal Care Tool</h3>
+                <div class="form-group">
+                    <label for="patient-name">Patient Name:</label>
+                    <input type="text" id="patient-name" placeholder="Enter patient name">
+                </div>
+                <button type="button">Submit Personal Care</button>
+            </div>
+        </div>
+
+        <!-- Placeholder for Care Plan Recommendations -->
+        <div class="chart-container">
+            <h3>Care Plan Recommendations</h3>
+            <p>This section will display care plan recommendations based on user input.</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
