@@ -38,6 +38,9 @@ Open index.html in a web browser to view the user interface.
 
 <img width="1488" height="836" alt="image" src="https://github.com/user-attachments/assets/412dc815-bc3f-4554-aea0-1baac4279ed7" />
 
+<img width="1483" height="832" alt="image" src="https://github.com/user-attachments/assets/3f8f8d0a-9c10-495f-bb18-dffe70e41dc9" />
+
+
 
 
 
