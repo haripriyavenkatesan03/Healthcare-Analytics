@@ -36,5 +36,9 @@ Frontend Setup:
 
 Open index.html in a web browser to view the user interface.
 
+<img width="1488" height="836" alt="image" src="https://github.com/user-attachments/assets/412dc815-bc3f-4554-aea0-1baac4279ed7" />
+
+
+
 
 
